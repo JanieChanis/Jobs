@@ -1,4 +1,15 @@
 import Image from 'next/image'
+import styled from 'styled-components'
+
+// export const Description = styled.a`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   height: 100%;
+//   text-decoration: none;
+// `
 
 export default function Home() {
   return (
@@ -104,7 +115,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with Vercel. My system is complete right?!
           </p>
         </a>
 
